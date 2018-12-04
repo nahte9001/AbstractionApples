@@ -97,12 +97,10 @@
 		2140AF0221B6D3D900F6DC71 /* AbstractionApples */ = {
 			isa = PBXGroup;
 			children = (
-				2140AF0321B6D3D900F6DC71 /* AppDelegate.swift */,
-				2140AF0521B6D3D900F6DC71 /* ViewController.swift */,
-				2140AF0721B6D3D900F6DC71 /* Main.storyboard */,
-				2140AF0A21B6D3DF00F6DC71 /* Assets.xcassets */,
-				2140AF0C21B6D3DF00F6DC71 /* LaunchScreen.storyboard */,
-				2140AF0F21B6D3DF00F6DC71 /* Info.plist */,
+				2140AF3421B6D58C00F6DC71 /* Model */,
+				2140AF3121B6D50C00F6DC71 /* Resources */,
+				2140AF3321B6D54000F6DC71 /* Controller */,
+				2140AF3221B6D52F00F6DC71 /* View */,
 			);
 			path = AbstractionApples;
 			sourceTree = "<group>";
@@ -123,6 +121,41 @@
 				2140AF2521B6D3DF00F6DC71 /* Info.plist */,
 			);
 			path = AbstractionApplesUITests;
+			sourceTree = "<group>";
+		};
+		2140AF3121B6D50C00F6DC71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2140AF0321B6D3D900F6DC71 /* AppDelegate.swift */,
+				2140AF0A21B6D3DF00F6DC71 /* Assets.xcassets */,
+				2140AF0F21B6D3DF00F6DC71 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2140AF3221B6D52F00F6DC71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2140AF0721B6D3D900F6DC71 /* Main.storyboard */,
+				2140AF0C21B6D3DF00F6DC71 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2140AF3321B6D54000F6DC71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2140AF0521B6D3D900F6DC71 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2140AF3421B6D58C00F6DC71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
