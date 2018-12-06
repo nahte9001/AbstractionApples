@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AbstractionViewController: UIView {
+class AbstractionViewController: UIPageViewController {
 
     /*
     // Only override draw() if you perform custom drawing.
